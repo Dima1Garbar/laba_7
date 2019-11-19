@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	background: url(1.jpg) center no-repeat;
+	height: 620px;
+	width:1345px;
+	display: flex;
+}
+
+.main_img img{
+	margin-top: 100px; 
+	margin-left: 95px;
+}
+.main_item{
+	position: absolute;
+	left: 260px;
+    top: 300px;
+}
+.main_item__desc{
+	font-size: 44px;
+	text-align: center;
+	color: #333333;	
+}
+.main_menu{
+	display: flex;
+	}
+.main_menu_img img{
+	margin-left: 65px;
+	margin-top: 70px;
+
+}
+.menu__items{
+	display: flex;
+	justify-content: flex-start;
+	position: absolute;
+
+}
+.menu_item{
+	padding: 15px 15px;
+	margin-top: 88px;
+    display: flex;
+    font-size: 20px;
+}
+a{ 
+    text-decoration: none;
+    color: #fff;
+}
+.menu_item:hover{
+    background:#c1c7c7 ;
+    color: #333333;
+}
+.forms{
+	display: flex;
+}
+.content{
+	display: flex;
+    flex-direction: column;
+    max-width: 1342px;
+    width: 100%;
+    margin: 0 auto;
+}
+.elinguage_title{
+	margin: 30px;
+    color: #00a8b2;
+    font-family: Alata;
+    font-size: 30px;
+    text-align: center;
+}
+.elinguage_description{
+	margin: auto;
+    font-size: 16px;
+    text-align: center;
+    width: 800px;
+}
+
+.how_it_title{
+
+	margin: 30px;
+    color: #00a8b2;
+    font-family: Catamaran;
+    font-size: 30px;
+    text-align: center;
+}
+.im{
+	display: flex;
+	justify-content: space-between;
+}
+.images_block {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 10px;
+}
+
+.images_block_item{
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.images img {
+  width: 180px;
+  height: 140px;
+}
+
+.item__title {
+  text-align: center;
+  margin-top: 10px;
+  color: #00a8b2;
+}
+
+.item__desc {
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  height: 128px;
+  width: 215px;
+}
+
+
+.line__copyright {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0;
+  height: 80px;
+  background: #333333;
+}
+.line_image{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.line_image img{
+	height: 70px;
+	width: 140px;
+	}
+
+.copyright__text {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 50px;
+  color: white;
+}
+
+
+
+
+
+
+
